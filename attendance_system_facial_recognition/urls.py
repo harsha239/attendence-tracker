@@ -18,6 +18,7 @@ from django.urls import path
 from django.contrib.auth import views as auth_views
 from recognition import views as recog_views
 from users import views as users_views
+from django.conf import settings
 
 urlpatterns = [
     path('admin/', admin.site.urls),
