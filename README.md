@@ -13,6 +13,4 @@ make a separate python virtual environment or use the default one already instal
  
  Run python manage.py runserver inside \Attendance-System-Using-Face-Recognition directory to run the project
  
- Heroku id harshaagrawal7777@gmail.com
- 
- password : Harshaag@1
+
