@@ -123,8 +123,9 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
+print(BASE_DIR)
 STATICFILES_DIRS = [
-    BASE_DIR + "/static",
+    BASE_DIR + "/recognition/static/",
 ]
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
